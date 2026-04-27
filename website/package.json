@@ -1,19 +1,19 @@
 {
-  "name": "website",
+  "name": "empowerhub360-website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI Empower Hub 360 NC - Autonomous Agentic AI Solutions",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "dev": "npx serve . -p 3000",
+    "lint": "eslint js/**/*.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ai", "automation", "agentic"],
+  "author": "AI Empower Cloud Hub LLC",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "playwright": "^1.58.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^10.0.0"
+    "eslint": "^10.0.0",
+    "serve": "^14.2.4"
   }
 }
